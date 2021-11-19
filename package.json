@@ -1,0 +1,44 @@
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "Puzzle app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhemnt/puzzle.git"
+  },
+  "author": "Hemant Negi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhemnt/puzzle/issues"
+  },
+  "homepage": "https://github.com/nhemnt/puzzle#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.17.5",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-tabs": "^3.2.2",
+    "viewportjs": "^4.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.3.4",
+    "classnames": "2.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "8.3.6",
+    "postcss-100vh-fix": "1.0.2",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-hover-media-feature": "1.0.1",
+    "postcss-preset-env": "6.7.0",
+    "tailwindcss": "2.2.15"
+  }
+}
